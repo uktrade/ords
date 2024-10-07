@@ -7,5 +7,5 @@ The format is based on the ORDS Version Mangement Policy and this project adhere
 ## [Unreleased]
 
 ## [1.0.0] - 2024-10-14
-###Added
+### Added
 - Initial version of the metadata standard.
