@@ -1,6 +1,6 @@
 # What do I need to know to help?
 
-If you are looking to help with a contribution to the ORPML standard, We love your input. We want to make contributing to this standard as easy and transparent as possible, whether it's:
+If you are looking to help with a contribution to the ORDS, We love your input. We want to make contributing to this standard as easy and transparent as possible, whether it's:
 
 - Reporting a bug/issue
 - Discussing the current state of the code
@@ -48,7 +48,7 @@ Remember to be clear and concise when describing the issue and providing relevan
 
 ## Semantic Versioning
 
-We use semantic Versioning, to version tag the ORPML open standard, semantic Versioning is a versioning scheme that uses a three-part number format (X.Y.Z) to convey information about compatibility, changes, and updates.
+We use semantic Versioning, to version tag the ORDS, semantic Versioning is a versioning scheme that uses a three-part number format (X.Y.Z) to convey information about compatibility, changes, and updates. View the [version control policy](https://github.com/uktrade/ords/blob/main/version_control_policy.md) for more information.
 
 ## What does the Code of Conduct mean for me?
 
