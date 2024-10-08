@@ -16,7 +16,7 @@ In an ongoing project the Regulation Directorate is bringing regulatory document
 
 ## What stage is it at?
 
-Currently, the standard is at v1.0.0, after going through a number of draft iterations. Our ploicy can be found at [Version Management Policy]
+Currently, the standard is at v1.0.0, after going through a number of draft iterations. Our policy can be found at [Version Management Policy](https://github.com/uktrade/ords/blob/main/VERSIONCONTROLPOLICY.md)
 Changes will be tracked in the [changelog](https://github.com/uktrade/ords/blob/main/CHANGELOG.md).
 
 ## How was ORDS developed?
@@ -94,7 +94,7 @@ Dublin Core Properties:
 
 
 The metadata ontology can be found as:
--	A machine readable file [ords_ontology.ttl]
+-	A [machine-readable 'Turtle' file](https://github.com/uktrade/ords/blob/main/ORDS.ttl)
 -	A text-based file
 
 ### Embedding ORDS
@@ -147,7 +147,7 @@ To add an issue to GitHub Issues, follow these steps:
 Remember to be clear and concise when describing the issue and providing relevant information. This will help others understand and address the problem effectively.
 
 ## Semantic Versioning
-We use semantic Versioning, to version tag the ORDS open standard, semantic Versioning is a versioning scheme that uses a three-part number format (X.Y.Z) to convey information about compatibility, changes, and updates. It can be found at [Version Management Policy].
+We use semantic Versioning, to version tag the ORDS open standard, semantic Versioning is a versioning scheme that uses a three-part number format (X.Y.Z) to convey information about compatibility, changes, and updates. It can be found at [Version Management Policy](https://github.com/uktrade/ords/blob/main/VERSIONCONTROLPOLICY.md).
 
 ## What does the Code of Conduct mean for me?
 
