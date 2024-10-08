@@ -1,0 +1,424 @@
+# baseURI: https://www.gov.uk/def/ords
+# imports: http://purl.org/dc/terms/
+# imports: http://www.w3.org/2004/02/skos/core
+# prefix: ords
+
+@prefix ords: <https://www.gov.uk/def/ords/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dctype: <http://purl.org/dc/dcmitype/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.gov.uk/def/ords>
+  a owl:Ontology ;
+  dct:license <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3> ;
+  dct:modified "2023-12-11"^^xsd:date ;
+  rdfs:comment "ORDS is an RDF vocabulary designed to provide a common set of metadata to describe documents published online by regulatory organisations. Publishing ORDS metadata for online documents regulators increases discoverability and enables data re-users to more easily combine data from multiple regulatory sources."@en ;
+  rdfs:label "The Open Reulation Document Standard"@en ;
+  owl:imports dct: ;
+  owl:imports <http://www.w3.org/2004/02/skos/core> ;
+ .
+
+:languageScheme a skos:ConceptScheme ;
+    skos:prefLabel "Language"@en ;
+    skos:note "A controlled vocabulary for the labnguage of regulatory documents."@en .
+
+:engLanguage a skos:Concept ;
+    skos:inScheme :languageScheme ;
+    skos:prefLabel "eng"@en ;
+    skos:definition "Document is written in the English language." .
+ 
+:cymLanguage a skos:Concept ;
+    skos:inScheme :languageScheme ;
+    skos:prefLabel "cym"@en ;
+    skos:definition "Document is written in the Welsh language." .
+
+:formatScheme a skos:ConceptScheme ;
+    skos:prefLabel "Format"@en ;
+    skos:note "A controlled vocabulary for the format of regulatory documents."@en .
+
+:pdfFormat a skos:Concept ;
+    skos:inScheme :formatScheme ;
+    skos:prefLabel "PDF"@en ;
+    skos:definition "Document is in PDF format." .
+ 
+:htmlFormat a skos:Concept ;
+    skos:inScheme :formatScheme ;
+    skos:prefLabel "HTML"@en ;
+    skos:definition "Document is in HTML format." .
+
+:wordFormat a skos:Concept ;
+    skos:inScheme :formatScheme ;
+    skos:prefLabel "MS Word"@en ;
+    skos:definition "Document is in an MS Word format." .
+
+:odfFormat a skos:Concept ;
+    skos:inScheme :formatScheme ;
+    skos:prefLabel "ODF"@en ;
+    skos:definition "Document is in Open Document Format (ODF)." .
+
+:odtFormat a skos:Concept ;
+    skos:inScheme :formatScheme ;
+    skos:prefLabel "ODT"@en ;
+    skos:definition "Document is in an ODT format." .
+
+:richTextFormat a skos:Concept ;
+    skos:inScheme :formatScheme ;
+    skos:prefLabel "Rich Text"@en ;
+    skos:definition "Document is in a Rich Text format." .
+
+:typeScheme a skos:ConceptScheme ;
+    skos:prefLabel "Type"@en ;
+    skos:note "A controlled vocabulary for the legal type of regulatory documents."@en .
+
+:guidanceType a skos:Concept ;
+    skos:inScheme :typeScheme ;
+    skos:prefLabel "Guidance"@en ;
+    skos:definition "Document is regulatory guidance." .
+
+:statutoryGuidanceType a skos:Concept ;
+    skos:inScheme :typeScheme ;
+    skos:prefLabel "Statutory Guidance"@en ;
+    skos:definition "Document is statutory guidance." .
+
+:legislationType a skos:Concept ;
+    skos:inScheme :typeScheme ;
+    skos:prefLabel "Legislation"@en ;
+    skos:definition "Document is legislation." .
+
+:standardType a skos:Concept ;
+    skos:inScheme :typeScheme ;
+    skos:prefLabel "Standard"@en ;
+    skos:definition "Document is a standard." .
+
+:statusScheme a skos:ConceptScheme ;
+    skos:prefLabel "Status"@en ;
+    skos:note "A controlled vocabulary to denote whether the document is in force."@en .
+
+:activeStatus a skos:Concept ;
+    skos:inScheme :statusScheme ;
+    skos:prefLabel "Active"@en ;
+    skos:definition "Document is active and in force." .
+
+:notActiveStatus a skos:Concept ;
+    skos:inScheme :statusScheme ;
+    skos:prefLabel "Not Active"@en ;
+    skos:definition "Document is not active nor in force." .
+
+:supersededStatus a skos:Concept ;
+    skos:inScheme :statusScheme ;
+    skos:prefLabel "Superseded"@en ;
+    skos:definition "Document has been superseded by another document." .
+
+:subjectScheme a skos:ConceptScheme ;
+    skos:prefLabel "Subject"@en ;
+    skos:note "A controlled vocabulary for the sector(s) that the document pertains to."@en .
+
+:agricultureForestryAndFishingSubject a skos:Concept ;
+    skos:inScheme :subjectScheme ;
+    skos:prefLabel "Agriculture, Forestry and Fishing"@en ;
+    skos:definition "Activities related to the cultivation of crops, livestock farming, forestry, logging, fishing (wild capture and aquaculture), and rural land management." .
+
+:miningAndQuarryingSubject a skos:Concept ;
+    skos:inScheme :subjectScheme ;
+    skos:prefLabel "Mining and Quarrying"@en ;
+    skos:definition "Involves the extraction of minerals, oil, gas, coal, stone, and other geological materials from the earth." .
+
+:manufacturingSubject a skos:Concept ;
+    skos:inScheme :subjectScheme ;
+    skos:prefLabel "Manufacturing"@en ;
+    skos:definition "The production of goods through the transformation of raw materials or components, and assembly of products across various industries." .
+
+
+:constructionSubject a skos:Concept ;
+    skos:inScheme :subjectScheme ;
+    skos:prefLabel "Construction"@en ;
+    skos:definition "Encompasses the building of infrastructure (residential, commercial, and industrial buildings), roads, bridges, and other physical structures." .
+
+:utilitiesSubject a skos:Concept ;
+    skos:inScheme :subjectScheme ;
+    skos:prefLabel "Utilities"@en ;
+    skos:definition "Provision of essential services such as electricity, gas, water supply and waste management." .
+
+:realEstateSubject a skos:Concept ;
+    skos:inScheme :subjectScheme ;
+    skos:prefLabel "Real Estate"@en ;
+    skos:definition "Activities including property development, buying, selling, leasing, and managing residential, commercial, and industrial properties." .
+
+:wholesaleRetailAndConsumerServicesSubject a skos:Concept ;
+    skos:inScheme :subjectScheme ;
+    skos:prefLabel "Wholesale, Retail and Consumer Services"@en ;
+    skos:definition "Wholesale involves selling goods in bulk to businesses, while retail includes selling products and services directly to consumers. Consumer services cover areas such as repairs, cleaning and personal care." .
+
+:foodAndDrinkSubject a skos:Concept ;
+    skos:inScheme :subjectScheme ;
+    skos:prefLabel "Food and Drink"@en ;
+    skos:definition "Covers production, processing, distribution, and retail of food and beverages, including restaurants and catering services." .
+
+:accommodationSubject a skos:Concept ;
+    skos:inScheme :subjectScheme ;
+    skos:prefLabel "Accommodation"@en ;
+    skos:definition "Includes businesses providing lodging and related services, such as hotels, hostels, and holiday rentals." .
+
+:mediaAndCreativeIndustriesSubject a skos:Concept ;
+    skos:inScheme :subjectScheme ;
+    skos:prefLabel "Media and Creative Industries"@en ;
+    skos:definition "Involves the creation, production and distribution of content in areas such as publishing, film, television, music, and digital media." .
+
+:transportationAndStorageSubject a skos:Concept ;
+    skos:inScheme :subjectScheme ;
+    skos:prefLabel "Transportation and Storage"@en ;
+    skos:definition "Encompasses the movement of goods and people through land, sea and air transportation services, as well as warehousing and logistics operations." .
+
+:financialAndProfessionalServicesSubject a skos:Concept ;
+    skos:inScheme :subjectScheme ;
+    skos:prefLabel "Financial and Professional Services"@en ;
+    skos:definition "Includes banking, insurance, accounting, legal services, consultancy, IT and other financial or advisory services." .
+
+:educationAndTrainingSubject a skos:Concept ;
+    skos:inScheme :subjectScheme ;
+    skos:prefLabel "Education and Training"@en ;
+    skos:definition "Involves institutions providing academic, vocational, and professional education, as well as training services for workforce development." .
+
+:healthSubject a skos:Concept ;
+    skos:inScheme :subjectScheme ;
+    skos:prefLabel "Health"@en ;
+    skos:definition "Covers medical and healthcare services provided by hospitals, clinics, and other organisations including pharmaceuticals and biotechnology." .
+
+:scientificResearchInnovationAndTechnologySubject a skos:Concept ;
+    skos:inScheme :subjectScheme ;
+    skos:prefLabel "Scientific Research, Innovation and Technology"@en ;
+    skos:definition "Covers the research activities across technology, engineering and emerging industries such as AI." .
+
+:generalBusinessRegulationsSubject a skos:Concept ;
+    skos:inScheme :subjectScheme ;
+    skos:prefLabel "General Business Regulations"@en ;
+    skos:definition "Refers to the overarching laws and policies that govern business operations, including compliance, labour laws, taxation and trade regulations." .
+
+ords:regulatorDocument
+  a rdfs:Class ;
+  a owl:Class ;
+  rdfs:comment "A document published online by a regulator."@en ;
+  rdfs:label "Regulatory Document"@en ;
+ .
+
+ords:title
+  a rdf:Property ; 
+  rdfs:comment "Title of the document."@en ;
+  rdfs:label "Title"@en ;
+  rdfs:subPropertyOf dct:title ;
+.
+
+ords:identifier
+  a rdf:Property ; 
+  rdfs:comment "An unambiguous reference to the document, usually a stable URL."@en ;
+  rdfs:label "Identifier"@en ;
+  rdfs:subPropertyOf dct:identifier ;
+.
+
+ords:publisher
+  a rdf:Property ; 
+  rdfs:comment "The organisation responsible for the document."@en ;
+  rdfs:label "Publisher"@en ;
+  rdfs:subPropertyOf dct:publisher ;
+.
+
+ords:language
+  a rdf:Property ; 
+  rdfs:comment "Language(s) the document is written in."@en ;
+  rdfs:label "Language"@en ;
+  rdfs:subPropertyOf dct:language ;
+.
+
+ords:format
+  a rdf:Property ; 
+  rdfs:comment "Format of the document, e.g. PDF, HTML"@en ;
+  rdfs:label "Format"@en ;
+  rdfs:subPropertyOf dct:format ;
+  skos:inScheme :formatScheme ;
+  rdfs:range skos:Concept .
+
+
+ords:description
+  a rdf:Property ; 
+  rdfs:comment "A brief description of the document."@en ;
+  rdfs:label "Description"@en ;
+  rdfs:subPropertyOf dct:description ;
+.
+
+ords:dateIssued
+  a rdf:Property ; 
+  rdfs:comment "Date that the document was formally issued."@en ;
+  rdfs:label "Date Issued"@en ;
+  rdfs:subPropertyOf dct:issued ;
+.
+
+ords:dateModified
+  a rdf:Property ; 
+  rdfs:comment "Date when the document was (last) changed."@en ;
+  rdfs:label "Date Modified"@en ;
+  rdfs:subPropertyOf dct:modified ;
+.
+
+ords:dateValid
+  a rdf:Property ; 
+  rdfs:comment "Date  when the document is valid. This will be the most recent of date_issued and date_modified."@en ;
+  rdfs:label "Date Valid"@en ;
+  rdfs:subPropertyOf dct:valid ;
+.
+
+ords:audience
+  a rdf:Property ; 
+  rdfs:comment "People or organisations that this document is intended for."@en ;
+  rdfs:label "Audience"@en ;
+  rdfs:subPropertyOf dct:audience ;
+.
+
+ords:coverage
+  a rdf:Property ; 
+  rdfs:comment "The jurisdiction(s) under which the document is relevant."@en ;
+  rdfs:label "Coverage"@en ;
+  rdfs:subPropertyOf dct:coverage ;
+.
+
+ords:subject
+  a rdf:Property ; 
+  rdfs:comment "Sector(s) covering the document's business area."@en ;
+  rdfs:label "Subject"@en ;
+  rdfs:subPropertyOf dct:subject ;
+  skos:inScheme :subjectScheme ;
+  rdfs:range skos:Concept .
+
+ords:type
+  a rdf:Property ; 
+  rdfs:comment "Categorisation of the type of regulatory document e.g. Guidance, Standard"@en ;
+  rdfs:label "Type"@en ;
+  rdfs:subPropertyOf dct:type ;
+  skos:inScheme :typeScheme ;
+  rdfs:range skos:Concept .
+
+ords:type
+  a rdf:Property ; 
+  rdfs:comment "Categorisation of the type of regulatory document e.g. Guidance, Standard."@en ;
+  rdfs:label "Type"@en ;
+  rdfs:subPropertyOf dct:type ;
+.
+
+ords:license
+  a rdf:Property ; 
+  rdfs:comment "The licence regulating reuse of the document."@en ;
+  rdfs:label "License"@en ;
+  rdfs:subPropertyOf dct:license ;
+.
+
+ords:regulatoryTopics
+  a rdf:Property ;
+  a owl:ObjectProperty ; 
+  rdfs:comment "The regulatory subject areas of the document."@en ;
+  rdfs:label "Regulatory Topics"@en ;
+  rdfs:domain ords:regulatorDocument ;
+.
+
+ords:status
+  a rdf:Property ;
+  a owl:ObjectProperty ; 
+  rdfs:comment "The legal status of the document. This property is used to distinguish between binding documents and guidance."@en ;
+  rdfs:label "Status"@en ;
+  rdfs:domain ords:regulatorDocument ;
+  skos:inScheme :statusScheme ;
+  rdfs:range skos:Concept .
+
+ords:dateUploaded
+  a rdf:Property ;
+  a owl:DatatypeProperty ;
+  rdfs:comment "The date that the document was uploaded to the Open Regulation Platform."@en ;
+  rdfs:label "Date Uploaded"@en ;
+  rdfs:domain ords:regulatorDocument ;
+  rdfs:range xsd:date ;
+.
+
+ords:hasFormat
+  a rdf:Property ; 
+  rdfs:comment "A way to relate versions of a document in different formats, e.g. linking the HTML version with a PDF version, inverse of isFormatOf"@en ;
+  rdfs:label "Has Format"@en ;
+  rdfs:subPropertyOf dct:hasFormat ;
+.
+
+ords:isFormatOf
+  a rdf:Property ; 
+  rdfs:comment "A way to relate versions of a document in different formats, e.g. linking the HTML version with a PDF version, inverse of hasFormat"@en ;
+  rdfs:label "Is Format Of"@en ;
+  rdfs:subPropertyOf dct:isFormatOf ;
+.
+
+ords:hasVersion
+  a rdf:Property ; 
+  rdfs:comment "Relating a document to another version, e.g. a new updated version of the document, inverse of isVersionOf"@en ;
+  rdfs:label "Has Version"@en ;
+  rdfs:subPropertyOf dct:hasVersion ;
+.
+
+ords:isVersionOf
+  a rdf:Property ; 
+  rdfs:comment "Relating a document to another version, e.g. a new updated version of the document, inverse of hasVersion"@en ;
+  rdfs:label "Is Version Of"@en ;
+  rdfs:subPropertyOf dct:isVersionOf ;
+.
+
+ords:references
+  a rdf:Property ; 
+  rdfs:comment "Relating a cited or referenced document, inverse of isReferencedBy"@en ;
+  rdfs:label "References"@en ;
+  rdfs:subPropertyOf dct:references ;
+.
+
+ords:isReferencedBy
+  a rdf:Property ; 
+  rdfs:comment "Relating a cited or referenced document, inverse of references"@en ;
+  rdfs:label "Is Referenced By"@en ;
+  rdfs:subPropertyOf dct:isReferencedBy ;
+.
+
+ords:hasPart
+  a rdf:Property ; 
+  rdfs:comment "A way to relate the whole document to a part of a document, where they are referenced or published separately. Inverse of isPartOf"@en ;
+  rdfs:label "Has Part"@en ;
+  rdfs:subPropertyOf dct:hasPart ;
+.
+
+ords:isPartOf
+  a rdf:Property ; 
+  rdfs:comment "A way to relate the whole document to a part of a document, where they are referenced or published separately. Inverse of hasPart"@en ;
+  rdfs:label "Is Part Of"@en ;
+  rdfs:subPropertyOf dct:isPartOf ;
+.
+
+ords:isReplacedBy
+  a rdf:Property ; 
+  rdfs:comment "Relating a document that replaces or supersedes the document. Inverse of replaces"@en ;
+  rdfs:label "Is Replaced By"@en ;
+  rdfs:subPropertyOf dct:isReplacedBy ;
+.
+
+ords:replaces
+  a rdf:Property ; 
+  rdfs:comment "Relating a document to the old superseded or replaced document, inverse of isReplacedBy"@en ;
+  rdfs:label "Replaces"@en ;
+  rdfs:subPropertyOf dct:replaces ;
+.
+
+ords:relatedLegislation
+  a rdf:Property ;
+  a owl:DatatypeProperty ;
+  rdfs:comment "This property is used to relate a document to the legislation that enables or enforces it"@en ;
+  rdfs:label "Related Legislation"@en ;
+  rdfs:domain ords:regulatorDocument ;
+  rdfs:range xsd:anyURI ;
+.  
+
+
+
