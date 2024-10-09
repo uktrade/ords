@@ -27,24 +27,28 @@ This policy applies to ORDS, and any accompanying documentation, schemas, and fo
 -	**Approved Version:** Finalised and officially approved versions of the metadata standard that are ready for implementation.
 -	**Deprecated version:** Versions of the metadata standard that are no longer supported or recommended for use but are maintained for historical or reference purposes.
 ## 5. Version Control Process
-### 5.1 Change Request and Approval
--	All changes to metadata must be documented through a formal change request process.
--	Stakeholders will be consulted on any major version changes.
+### 5.1 Change Request and Approval - Major Changes
+-	All major changes to metadata must be documented through a formal change request process. These changes may be raised by stakeholders, or the ORDS team itself.
+-	Stakeholders will be consulted prior to convening the ORDS Governance Committee.
 -	Change requests and consultation feedback will be reviewed and approved by the ORDS Governance Committee before implementation.
 -   Feedback from consultation and notice of the decision will be published on GitHub.
 -	Each approved change will result in the increment of the version number following the version numbering scheme.
-### 5.2 Documentation of Changes
+### 5.2 Change Request and Approval - Minor/Patch Changes
+-   Minor and patch changes can be reaised by stakeholders or the ORDS team.
+-   These changes must receive approval from the ORDS manager before implementation.
+-	Each approved change will result in the increment of the version number following the version numbering scheme.
+### 5.3 Documentation of Changes
 -	Each new version must be accompanied by a change log that documents the changes, including:
   -	Date of the change
   -	Author or contributor responsible for the change.
   -	Detailed description of the modification.
   -	Impact assessment on systems (e.g. ORP) and processes.
 -	The [changelog](https://github.com/uktrade/ords/blob/main/CHANGELOG.md) will be stored with ORDS in the GitHub repository.
-### 5.3 Version Identification
+### 5.4 Version Identification
 -	Each ORDS documentation piece must clearly indicate the current version number in the header.
 -	Embedded ORDS must indicate the version of ORDS within the HTML code.
 -	Historical versions must be archived with their respective version numbers and release notes for reference.
-### 5.4 Version Release and Distribution
+### 5.5 Version Release and Distribution
 -	Once approved, new versions of ORDS will be made available in the GitHub repository.
 -	Notifications from the [open.regulation@businessandtrade.gov.uk](mailto:open.regulation@businessandtrade.gov.uk) email will be sent to all relevant stakeholders, including regulators, ORP API users, and RegTech partners.
 -	Appropriate documentation will accompany the release of any major or minor version updates.
