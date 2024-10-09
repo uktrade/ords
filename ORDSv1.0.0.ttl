@@ -159,10 +159,10 @@
     skos:prefLabel "Food and Drink"@en ;
     skos:definition "Covers production, processing, distribution, and retail of food and beverages, including restaurants and catering services." .
 
-:accommodationSubject a skos:Concept ;
+:accommodationTourismAndLeisureSubject a skos:Concept ;
     skos:inScheme :subjectScheme ;
-    skos:prefLabel "Accommodation"@en ;
-    skos:definition "Includes businesses providing lodging and related services, such as hotels, hostels, and holiday rentals." .
+    skos:prefLabel "Accommodation, Tourism and Leisure"@en ;
+    skos:definition "Includes businesses providing lodging and related services, tourist sites, and leisure activities." .
 
 :mediaAndCreativeIndustriesSubject a skos:Concept ;
     skos:inScheme :subjectScheme ;
