@@ -29,7 +29,8 @@ This policy applies to ORDS, and any accompanying documentation, schemas, and fo
 ## 5. Version Control Process
 ### 5.1 Change Request and Approval
 -	All changes to metadata must be documented through a formal change request process.
--	Change requests will be reviewed and approved by the ORDS Governance Committee before implementation.
+-	Stakeholders will be consulted on any major version changes.
+-	Change requests and consultation feedback will be reviewed and approved by the ORDS Governance Committee before implementation.
 -	Each approved change will result in the increment of the version number following the version numbering scheme.
 ### 5.2 Documentation of Changes
 -	Each new version must be accompanied by a change log that documents the changes, including:
