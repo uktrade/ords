@@ -224,7 +224,7 @@ The majority of the properties in the ORDS standard are a restatement of propert
 || Real estate |
 || Wholesale, Retail and Consumer Services |
 || Food and Drink |
-|| Accommodation |
+|| Accommodation, Tourism and Leisure Activities |
 || Media and Creative Industries |
 || Transportation and Storage |
 || Financial and Professional Services |
