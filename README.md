@@ -1,4 +1,4 @@
-# ORDS
+# *DRAFT* ORDS
 
 Contains the explanation, schemas and example usage of the Open Regulation Document Standard (ORDS).
 
