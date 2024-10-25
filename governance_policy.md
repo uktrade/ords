@@ -35,6 +35,7 @@ ORDS and its documentation will be stored on our official GitHub repository. The
 -	ORDS implementation examples
 -	Version Control Policy
 -	Governance Policy
+-	ORDS Examples
 -	Contribute file
 -	Changelog
 -	Usage license
