@@ -1,4 +1,4 @@
-# ORDS governance policy
+# ORDS Governance Policy
 ## Purpose
 The purpose of this policy is to outline the roles, responsibilities and processes involved in maintaining ORDS, in order to ensure the consistency, accuracy and quality of the ORDS outputs, and continued development of the standard.
 
