@@ -46,7 +46,7 @@ The ORDS manager holds responsibility for the content in the repository and keep
 
 To ensure that the policies and documentation remain up-to-date it will undergo regular reviews:
 - Annual Review: The ORDS Governance Committee will conduct an annual review of the policies and documentation to evaluate their effectiveness, assess any gaps, and make neccessary updates.
-- Ad-Hoc Review: In addition to the annual review, polciies and documentation will be reviewed whenever there are significant changes in ORDS itself, or governing policies within DBT or wider government.
+- Ad-Hoc Review: In addition to the annual review, policies and documentation will be reviewed whenever there are significant changes in ORDS itself, or governing policies within DBT or wider government.
 
 Major changes to policies or documentation should be:
 - Approved by the ORDS Governance Committee
