@@ -16,7 +16,7 @@ In an ongoing project the Regulation Directorate is bringing regulatory document
 
 ## What stage is it at?
 
-Currently, the standard is at v1.0.0, after going through a number of draft iterations. Our policy can be found at [Version Management Policy](https://github.com/uktrade/ords/blob/main/VERSIONCONTROLPOLICY.md)
+Currently, the standard is at v1.0.0, after going through a number of draft iterations. Our policy can be found at [Version Management Policy](https://github.com/uktrade/ords/blob/main/VERSIONCONTROLPOLICY.md).
 Changes will be tracked in the [changelog](https://github.com/uktrade/ords/blob/main/CHANGELOG.md).
 
 ## How was ORDS developed?
