@@ -91,7 +91,7 @@ The majority of the properties in the ORDS standard are a restatement of propert
 | Definition | An unambiguous reference to the document, usually a stable URL. |
 | Domain | <https://www.gov.uk/def/ords/regulatorDocument> |
 | Range | <http://www.w3.org/2000/01/rdf-schema#Literal> |
-| Implementation Notes | Ideally this identifier should be unique, permanent and provide a mechanism to locate the document, e.g. a URI that resolves. It’s possible that a document may have more than one identifier. In this case some indication of the canonical identifier would be beneficial. |
+| Implementation Notes | Ideally this identifier should be unique, permanent and provide a mechanism to locate the document, e.g. a URI that resolves. It’s possible that a document may have more than one identifier. In this case some indication of the canonical identifier would be beneficial. For accessibility purposes, URIs should link to pages allowing PDF download, rather than to the PDF itself |
 | Information Use | Recording identifier(s) for documents helps organise data in document management systems and provides a mechanism for citations and referencing. |
 
 | Property Name | publisher |
