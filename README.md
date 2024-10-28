@@ -4,9 +4,9 @@ Contains the explanation, schemas and example usage of the Open Regulation Docum
 
 ## What is ORDS?
 
-ORDS stands for Open Regulation Document Standard. It is designed for use by all UK Regulators who publish legally enforceable guidance, codes of conducts, standards and similar documents online in HTML, PDF or any other format. It can also be used by organisations who re-publish or create indexes of regulatory documents, such as RD’s Open Regulation Platform. 
+ORDS stands for Open Regulation Document Standard. It is designed for use by all UK Regulators who publish legally enforceable guidance, codes of conducts, standards and similar documents online in HTML, PDF or any other format. It can also be used by organisations who re-publish or create indexes of regulatory documents, such as the Open Regulation Platform (ORP). 
 
-This standard has been developed by the [Regulation Directorate](https://www.gov.uk/government/collections/smarter-regulation) (RD), part of the [Department of Business and Trade](https://www.gov.uk/government/organisations/department-for-business-and-trade), in collaboration with regulators. RD is responsible for co-ordinating regulatory reform, working to make UK regulations easier to access, to reduce the compliance costs of businesses.
+This standard has been developed by the [Regulation Directorate](https://www.gov.uk/government/collections/smarter-regulation) (RD), part of the [Department of Business and Trade](https://www.gov.uk/government/organisations/department-for-business-and-trade), in collaboration with regulators. RD is responsible for co-ordinating regulatory reform, working to make UK regulations easier to access, to reduce the compliance costs of businesses. RD is also producing the Open Regulation Platform (ORP).
 
 ## What is it used for?
 
@@ -45,7 +45,7 @@ We have also engaged with individual regulators to understand their specific req
 
 ### Formalisation
 
-We are working with the Data Standards Authority (DSA) to make ORDS an official UK government standard for regulatory metadata. You can find out about this process in the Central Digital and Data Office [gov.uk pages](https://www.gov.uk/guidance/choosing-open-standards-for-government) that describe how open standards for government are selected.
+We are working with the Data Standards Authority (DSA) to make ORDS an official UK government standard for regulatory metadata. You can find out about this process on the Central Digital and Data Office [gov.uk pages](https://www.gov.uk/guidance/choosing-open-standards-for-government) that describe how open standards for government are selected.
 
 ## Features
 
