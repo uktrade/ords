@@ -10,7 +10,7 @@ This policy applies to ORDS, and any accompanying documentation, schemas, and fo
 -	**ORDS:** Open Regulation Documentation Standard. A metadata standard developed by the Regulation Directorate in the Department for Business and Trade. It is applied to regulatory documents to create a consistent level of information across regulators.
 -	**Version Control:** The practice of managing changes to metadata standards in a way that tracks the history of changes, maintains consistency and allows for rollback or updates as needed.
 -	**Version:** A unique number or identifier assigned to each change or release of ORDS.
--	**Repository:** A centralised location where metadata standards and related documentation are stored and managed. In the case of ORDS, this is located here.
+-	**Repository:** A centralised location where metadata standards and related documentation are stored and managed. In the case of ORDS, this is located on [GitHub](https://github.com/uktrade/ords).
 ## 4. Versioning System
 ### 4.1 Version Numbering Scheme
 -	ORDS will follow a structured version numbering system to distinguish between major, minor and patch updates. The format of the version number will be: [Major].[Minor].[Patch]
@@ -60,19 +60,17 @@ This policy applies to ORDS, and any accompanying documentation, schemas, and fo
 -	ORDS that is no longer in active use or is superseded by newer versions may be marked as deprecated.
 -	Deprecated versions will remain accessible in the archive but will not be recommended for new projects.
 ## 7. Roles and Responsibilities
-### 7.1 ORDS Governance Committee
--	Review and approve proposed changes to the metadata standard.
+### 7.1 Regulation Directorate
+-	Review, approve and implement proposed changes to the metadata standard.
 -	Ensure compliance with version control policies.
+-	Maintain and update ORDS GitHub and documentation.
 -	Oversee the archiving and deprecation of outdated standards.
-### 7.2 ORDS Manager
--	Implement approved changes to the metadata standard.
--	Ensure proper versioning and documentation of all updates.
--	Maintain the centralized repository and ensure stakeholders are notified of new versions.
-### 7.3 Stakeholders (Regulators, ORP API Users, RegTech partners)
+-	Maintain relations with stakeholders, consulting on changes and informing of updates.
+### 7.2 Stakeholders (Regulators, ORP API Users, RegTech partners)
 -	Review and implement updates to the metadata standard in their respective systems.
 -	Provide feedback on proposed changes and suggest improvements as needed.
 ## 8. Compliance and Review
 -	This policy will be reviewed annually to ensure it remains current and effective.
 -	Non-compliance with this policy may result in inconsistent ORDS usage, data quality issues, and operational inefficiencies.
 ## 9. Effective Date
-This policy is effective as of 08/10/2024.
+This policy is effective as of --/--/----.
