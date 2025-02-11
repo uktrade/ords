@@ -6,13 +6,13 @@ Contains the explanation, schemas and example usage of the Open Regulation Docum
 
 ORDS stands for Open Regulation Document Standard. It is designed for use by all UK Regulators who publish legally enforceable guidance, codes of conducts, standards and similar documents online in HTML, PDF or any other format. It can also be used by organisations who re-publish or create indexes of regulatory documents, such as the Open Regulation Platform (ORP). 
 
-This standard has been developed by the [Regulation Directorate](https://www.gov.uk/government/collections/smarter-regulation) (RD), part of the [Department of Business and Trade](https://www.gov.uk/government/organisations/department-for-business-and-trade), in collaboration with regulators. RD is responsible for co-ordinating regulatory reform, working to make UK regulations easier to access, and reduce the compliance costs for businesses. RD is also producing the Open Regulation Platform (ORP).
+This standard has been developed by the [Regulation Directorate](https://www.gov.uk/government/collections/smarter-regulation) (RD), part of the [Department of Business and Trade](https://www.gov.uk/government/organisations/department-for-business-and-trade), in collaboration with regulators. RD is responsible for co-ordinating regulatory reform, working to make UK regulations easier to access, and reduce the compliance costs for businesses. RD is also producing the Find Business Regulations (FBR) sevice on GOV.UK.
 
 ## What is it used for?
 
 ORDS is designed to be the foundation for wider work to improve access and reuse of Regulator documents online. It aims to provide a consistent set of metadata values for documents published by Regulators that can be used to develop business-centred digital services supporting regulatory compliance, improve search engine optimisation, facilitate document collation, aid document lifecycle management and document indexing.
 
-In an ongoing project, the Regulation Directorate is indexing regulatory documents together into one location with the Open Regulation Platform (ORP), and introducing a metadata standard to encourage best practice publishing. We hope that this standard will be the first step in making regulator documents machine-readable, fully accessible and more standardised for ease of use by businesses, legal advisors, other government departments, and RegTech projects.
+In an ongoing project, the Regulation Directorate is indexing regulatory documents together into one location with FBR, and introducing a metadata standard to encourage best practice publishing. We hope that this standard will be the first step in making regulator documents machine-readable, fully accessible and more standardised for ease of use by businesses, legal advisors, other government departments, and RegTech projects.
 
 ## What stage is it at?
 
@@ -39,7 +39,7 @@ We have presented this standard to stakeholders through a series of Data Standar
 
 We have undertaken significant testing of ORDS with regulatory documents. This started with an initial testing with space sector documents. This has expanded to a large-scale tagging of construction sector regulatory documents. Over 700 documents have been tagged across several formats and regulators by 3 different taggers. This test has allowed us to expand our guidance and documentation for the practical implementation of ORDS.
 
-We have also engaged with individual regulators to understand their specific requirements, and how ORDS can be implemented. Our ongoing engagement with the Office for Product Safety and Standards (OPSS) is seeing their team use ORDS to tag and index their regulatory guidance. The resulting metadata will be used in the ORP, and by OPSS itself to audit and manage its library of guidance.
+We have also engaged with individual regulators to understand their specific requirements, and how ORDS can be implemented. Our ongoing engagement with the Office for Product Safety and Standards (OPSS) has seen their team use ORDS to tag and index their regulatory guidance. The resulting metadata will be used in FBR, and by OPSS itself to audit and manage its library of guidance.
 
 
 
