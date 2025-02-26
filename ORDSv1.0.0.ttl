@@ -1,26 +1,26 @@
 # baseURI: https://www.gov.uk/def/ords
-# imports: http://purl.org/dc/terms/
+# imports: https://purl.org/dc/terms/
 # imports: http://www.w3.org/2004/02/skos/core
 # prefix: ords
 
 @prefix ords: <https://www.gov.uk/def/ords/> .
-@prefix dct: <http://purl.org/dc/terms/> .
-@prefix dctype: <http://purl.org/dc/dcmitype/> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <https://purl.org/dc/terms/> .
+@prefix dctype: <https://purl.org/dc/dcmitype/> .
+@prefix foaf: <https://xmlns.com/foaf/0.1/> .
+@prefix owl: <https://www.w3.org/2002/07/owl#> .
+@prefix rdf: <https://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <https://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <https://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <https://www.w3.org/2001/XMLSchema#> .
 
 <https://www.gov.uk/def/ords>
   a owl:Ontology ;
-  dct:license <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3> ;
+  dct:license <https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3> ;
   dct:modified "2023-12-11"^^xsd:date ;
   rdfs:comment "ORDS is an RDF vocabulary designed to provide a common set of metadata to describe documents published online by regulatory organisations. Publishing ORDS metadata for online documents regulators increases discoverability and enables data re-users to more easily combine data from multiple regulatory sources."@en ;
   rdfs:label "The Open Reulation Document Standard"@en ;
   owl:imports dct: ;
-  owl:imports <http://www.w3.org/2004/02/skos/core> ;
+  owl:imports <https://www.w3.org/2004/02/skos/core> ;
  .
 
 :languageScheme a skos:ConceptScheme ;
