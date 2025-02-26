@@ -91,7 +91,7 @@ Dublin Core Properties:
 
 
 The metadata ontology can be found as:
--	A [machine-readable 'Turtle' file](https://github.com/uktrade/ords/blob/main/ORDS.ttl)
+-	A [machine-readable 'Turtle' file](https://github.com/uktrade/ords/blob/main/ORDSv1.0.0.ttl)
 -	A [text-based file](https://github.com/uktrade/ords/blob/main/ontology.md)
 
 ### Embedding ORDS
