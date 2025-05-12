@@ -25,7 +25,7 @@
 
 :languageScheme a skos:ConceptScheme ;
     skos:prefLabel "Language"@en ;
-    skos:note "A controlled vocabulary for the labnguage of regulatory documents."@en .
+    skos:note "A controlled vocabulary for the language of regulatory documents."@en .
 
 :engLanguage a skos:Concept ;
     skos:inScheme :languageScheme ;
