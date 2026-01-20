@@ -42,7 +42,7 @@ This policy applies to ORDS, and any accompanying documentation, schemas, and fo
   -	Date of the change
   -	Author or contributor responsible for the change.
   -	Detailed description of the modification.
-  -	Impact assessment on systems (e.g. ORP) and processes.
+  -	Impact assessment on systems (e.g. FBR) and processes.
 -	The [changelog](https://github.com/uktrade/ords/blob/main/CHANGELOG.md) will be stored with ORDS in the GitHub repository.
 ### 5.4 Version Identification
 -	Each ORDS documentation piece must clearly indicate the current version number in the header.
@@ -50,7 +50,7 @@ This policy applies to ORDS, and any accompanying documentation, schemas, and fo
 -	Historical versions must be archived with their respective version numbers and release notes for reference.
 ### 5.5 Version Release and Distribution
 -	Once approved, new versions of ORDS will be made available in the GitHub repository.
--	Notifications from the [open.regulation@businessandtrade.gov.uk](mailto:open.regulation@businessandtrade.gov.uk) email will be sent to all relevant stakeholders, including regulators, ORP API users, and RegTech partners.
+-	Notifications from the [open.regulation@businessandtrade.gov.uk](mailto:open.regulation@businessandtrade.gov.uk) email will be sent to all relevant stakeholders, including regulators, FBR API users, and RegTech partners.
 -	Appropriate documentation will accompany the release of any major or minor version updates.
 ## 6. Archiving and Deprecation
 ### 6.1 Archiving
@@ -66,7 +66,7 @@ This policy applies to ORDS, and any accompanying documentation, schemas, and fo
 -	Maintain and update ORDS GitHub and documentation.
 -	Oversee the archiving and deprecation of outdated standards.
 -	Maintain relations with stakeholders, consulting on changes and informing of updates.
-### 7.2 Stakeholders (Regulators, ORP API Users, RegTech partners)
+### 7.2 Stakeholders (Regulators, FBR API Users, RegTech partners)
 -	Review and implement updates to the metadata standard in their respective systems.
 -	Provide feedback on proposed changes and suggest improvements as needed.
 ## 8. Compliance and Review
