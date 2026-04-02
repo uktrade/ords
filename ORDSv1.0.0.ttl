@@ -12,6 +12,8 @@
 @prefix rdfs: <https://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <https://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <https://www.w3.org/2001/XMLSchema#> .
+@prefix : <https://www.gov.uk/def/ords/> .
+
 
 <https://www.gov.uk/def/ords>
   a owl:Ontology ;
