@@ -102,8 +102,3 @@ Contributions are welcome! Please see the CONTRIBUTING.md file for details on ho
 
 ## License
 The project is licensed under the MIT license. Please see the license page for more details.
-
-
-
-
-
