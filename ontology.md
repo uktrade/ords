@@ -10,6 +10,14 @@ The ORDS properties are described below. All properties are optional although us
 
 You can find examples and some tools to experiment with implementing the standard in the document “ORDS Examples”.
 
+## Interpretation of requirement language: 
+ORDS uses the following terminology for requirement levels: 
+* MUST / SHALL – mandatory for compliance 
+* SHOULD – recommended; deviations should be justified 
+* MAY – optional 
+
+This aligns with RFC 2119 requirement definitions. 
+
 ## ORDS Classes:
 
 There is currently only one class defined in the vocabulary. All regulatory documents described by this property are expected to be members of this class.
@@ -120,7 +128,7 @@ The majority of the properties in the ORDS standard are a restatement of propert
 | --- | --- |
 | URI | <http://purl.org/dc/terms/format> |
 | Label | Format |
-| Definition | Format of the document, e.g. PDF, HTML |
+| Definition | File type or medium of the document, e.g. PDF, XML |
 | Domain | <https://www.gov.uk/def/ords/regulatorDocument> |
 | Range | <http://purl.org/dc/terms/MediaType> |
 | Implementation Notes | This should be the [Internet Assigned Numbers Authority (IANA) media type](https://www.iana.org/assignments/media-types/media-types.xhtml) of the document, e.g. “application/pdf”. |
