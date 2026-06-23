@@ -38,4 +38,4 @@ ORDS and its documentation will be stored on our official GitHub repository. The
 The Regulation Directorate holds responsibility for the content in the repository and keeping it up to date.
 
 
-This policy is active as of _/_/__
+This policy is active as of 1 July 2026
