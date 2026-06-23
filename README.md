@@ -98,10 +98,10 @@ The metadata ontology can be found as:
 ORDS metadata can be embedded in documents, for example using a rubric at the beginning or end of the document. Metadata could be stored in metadata files that are companions to the related document, spreadsheets or in a database. For documents published in HTML you can embed ORDS metadata properties in the file using RDFa or JSON-LD.
 
 ## Contributing
-Contributions are welcome! Please see the CONTRIBUTING.md file for details on how to get involved. You can submit issues or pull requests to help improve the standard.
+Contributions are welcome! Please see the [contribute.md](https://github.com/uktrade/ords/blob/main/contribute.md) file for details on how to get involved. You can submit issues or pull requests to help improve the standard.
 
-## License
-The project is licensed under the MIT license. Please see the license page for more details.
+## Licence
+The project is licenced under the Open Government Licence V3. Please see the licence page for more details.
 
 
 
