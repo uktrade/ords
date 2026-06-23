@@ -73,4 +73,4 @@ This policy applies to ORDS, and any accompanying documentation, schemas, and fo
 -	This policy will be reviewed annually to ensure it remains current and effective.
 -	Non-compliance with this policy may result in inconsistent ORDS usage, data quality issues, and operational inefficiencies.
 ## 9. Effective Date
-This policy is effective as of --/--/----.
+This policy is effective as of 1 July 2026
