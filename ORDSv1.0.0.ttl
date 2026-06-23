@@ -12,6 +12,8 @@
 @prefix rdfs: <https://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <https://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <https://www.w3.org/2001/XMLSchema#> .
+@prefix : <https://www.gov.uk/def/ords/> .
+
 
 <https://www.gov.uk/def/ords>
   a owl:Ontology ;
@@ -236,7 +238,7 @@ ords:language
 
 ords:format
   a rdf:Property ; 
-  rdfs:comment "Format of the document, e.g. PDF, HTML"@en ;
+  rdfs:comment "The file type or medium of the document (e.g., PDF, HTML). Uses controlled values defined in :formatScheme."@en ;
   rdfs:label "Format"@en ;
   rdfs:subPropertyOf dct:format ;
   skos:inScheme :formatScheme ;
