@@ -236,7 +236,7 @@ ords:language
 
 ords:format
   a rdf:Property ; 
-  rdfs:comment "Format of the document, e.g. PDF, HTML"@en ;
+  rdfs:comment "The file type or medium of the document (e.g., PDF, HTML). Uses controlled values defined in :formatScheme."@en ;
   rdfs:label "Format"@en ;
   rdfs:subPropertyOf dct:format ;
   skos:inScheme :formatScheme ;
