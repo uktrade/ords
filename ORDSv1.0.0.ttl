@@ -238,7 +238,7 @@ ords:language
 
 ords:format
   a rdf:Property ; 
-  rdfs:comment "The file type or medium of the document (e.g., PDF, HTML). Uses controlled values defined in :formatScheme."@en ;
+  rdfs:comment "The file type or medium of the document. Normative implementations should use IANA media type strings (for example, application/pdf). The :formatScheme concepts provide optional semantic mappings for linked-data use."@en ;
   rdfs:label "Format"@en ;
   rdfs:subPropertyOf dct:format ;
   skos:inScheme :formatScheme ;
@@ -303,13 +303,6 @@ ords:type
   skos:inScheme :typeScheme ;
   rdfs:range skos:Concept .
 
-ords:type
-  a rdf:Property ; 
-  rdfs:comment "Categorisation of the type of regulatory document e.g. Guidance, Standard."@en ;
-  rdfs:label "Type"@en ;
-  rdfs:subPropertyOf dct:type ;
-.
-
 ords:license
   a rdf:Property ; 
   rdfs:comment "The licence regulating reuse of the document."@en ;
@@ -328,7 +321,7 @@ ords:regulatoryTopics
 ords:status
   a rdf:Property ;
   a owl:ObjectProperty ; 
-  rdfs:comment "The legal status of the document. This property is used to distinguish between binding documents and guidance."@en ;
+  rdfs:comment "The legal status of the document. This property is used to determine whether the document is in force, not active, or superseded."@en ;
   rdfs:label "Status"@en ;
   rdfs:domain ords:regulatorDocument ;
   skos:inScheme :statusScheme ;
