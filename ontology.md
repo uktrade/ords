@@ -51,13 +51,13 @@ The majority of the properties in the ORDS standard are a restatement of propert
 | --- | --- |
 | URI | <https://www.gov.uk/def/ords/status> |
 | Label | Status |
-| Definition | The legal status of the document. This property is used to determine if a document is in force. |
+| Definition | The legal status of the document. This property is used to determine whether the document is in force, not active, or superseded. |
 | Domain | <https://www.gov.uk/def/ords/regulatorDocument> |
 | Range |     |
 | Implementation Notes | This is the legal status of the document. Documents should only have one legal status that may need to be updated over time, e.g. if the document is superseded by another document. |
 | Information Use | A property to explicitly record the legal status of a document is essential to allow users and search engines to identify legally binding documents. |
 | Controlled List | Active |
-|| Not active |
+|| Not Active |
 || Superseded |
 
 | Property Name | dateUploaded |
@@ -128,17 +128,17 @@ The majority of the properties in the ORDS standard are a restatement of propert
 | --- | --- |
 | URI | <http://purl.org/dc/terms/format> |
 | Label | Format |
-| Definition | File type or medium of the document, e.g. PDF, XML |
+| Definition | File type or medium of the document, recorded using an IANA media type string (for example, application/pdf). |
 | Domain | <https://www.gov.uk/def/ords/regulatorDocument> |
 | Range | <http://purl.org/dc/terms/MediaType> |
-| Implementation Notes | This should be the [Internet Assigned Numbers Authority (IANA) media type](https://www.iana.org/assignments/media-types/media-types.xhtml) of the document, e.g. “application/pdf”. |
+| Implementation Notes | The normative value is the [Internet Assigned Numbers Authority (IANA) media type](https://www.iana.org/assignments/media-types/media-types.xhtml) of the document, e.g. "application/pdf". For linked-data implementations, this value may also be mapped to a corresponding ORDS SKOS concept from the format scheme in ORDSv1.0.0.ttl. |
 | Information Use | Recording the format of a document assists in document management, tracking formats and technical needs for access. |
-| Controlled List | PDF |
-|| HTML |
-|| MS Word |
-|| ODF |
-|| ODT |
-|| Rich Text |
+| Controlled List | PDF (application/pdf) |
+|| HTML (text/html) |
+|| MS Word (application/msword or application/vnd.openxmlformats-officedocument.wordprocessingml.document) |
+|| ODF (application/vnd.oasis.opendocument.* - choose the specific subtype) |
+|| ODT (application/vnd.oasis.opendocument.text) |
+|| Rich Text (text/rtf) |
 
 | Property Name | description |
 | --- | --- |
@@ -224,12 +224,12 @@ The majority of the properties in the ORDS standard are a restatement of propert
 | Range |     |
 | Implementation Notes | The subject matter of the document. This takes the form of a sector(s) from a controlled list. |
 | Information Use | Recording information on document subjects provides information for search engines, especially to help users find relevant documents when they don't know the exact document they are looking for as well as relating documents in the same subject area. |
-| Controlled List | Agriculture, forestry and fishing |
+| Controlled List | Agriculture, Forestry and Fishing |
 || Mining and Quarrying |
 || Manufacturing |
 || Construction |
 || Utilities |
-|| Real estate |
+|| Real Estate |
 || Wholesale, Retail and Consumer Services |
 || Food and Drink |
 || Accommodation, Tourism and Leisure Activities |
@@ -239,7 +239,7 @@ The majority of the properties in the ORDS standard are a restatement of propert
 || Education and Training |
 || Scientific Research, Innovation and Technology |
 || Health |
-|| General business regulations |
+|| General Business Regulations |
 
 | Property Name | type |
 | --- | --- |

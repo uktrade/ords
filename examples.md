@@ -26,17 +26,17 @@ Note that not all properties will be relevant or known for every document. In th
 | **Language** | eng |
 | **Format** | application/pdf |
 | **Description** | This brief guide describes what employers need to do to protect their employees from falls from height. Falls from height are one of the biggest causes of workplace fatalities and major injuries. Work at height means work in any place where, if there were no precautions in place, a person could fall a distance liable to cause personal injury. Common causes are falls from ladders and through fragile roofs. The Work at Height Regulations 2005 aim to prevent death and injury from a fall from height. |
-| **Date Issued** | 2014‑01‑27 |
-| **Date Modified** | 2014‑01‑28 |
-| **Date Valid** | 2014‑01‑27 |
+| **Date Issued** | 2014-01-27 |
+| **Date Modified** | 2014-01-28 |
+| **Date Valid** | 2014-01-27 |
 | **Audience** | Employers |
-| **Coverage** | GB‑ENG <br> GB‑SCT <br> GB‑WLS |
-| **Subject** | Safety <br> Construction |
+| **Coverage** | GB-ENG <br> GB-SCT <br> GB-WLS |
+| **Subject** | Construction <br> General Business Regulations |
 | **Type** | Guidance |
 | **License** | https://www.hse.gov.uk/copyright.htm |
 | **Regulatory Topics** | Construction <br> Buildings |
 | **Status** | Active |
-| **Date Uploaded** | 2014‑01‑27 |
+| **Date Uploaded** | 2014-01-27 |
 | **Has Format** | |
 | **Is Format Of** | |
 | **Has Version** | |
@@ -66,13 +66,13 @@ Note that not all properties will be relevant or known for every document. In th
 | **Language** | eng |
 | **Format** | text/html |
 | **Description** | The Environmental Permitting (England & Wales) Regulations 2016 - Chapter 4 Standard rules |
-| **Date Issued** | 2022‑03‑16 |
-| **Date Modified** | 2023‑12‑14 |
-| **Date Valid** | 2017‑01‑01 |
+| **Date Issued** | 2022-03-16 |
+| **Date Modified** | 2023-12-14 |
+| **Date Valid** | 2017-01-01 |
 | **Audience** | Operators of regulated waste facilities |
-| **Coverage** | GB‑ENG |
-| **Subject** | Business <br> Environment |
-| **Type** | Statutory guidance |
+| **Coverage** | GB-ENG |
+| **Subject** | Utilities <br> General Business Regulations |
+| **Type** | Statutory Guidance |
 | **License** | https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/ |
 | **Regulatory Topics** | Environment <br> Waste <br> Paper <br> Cardboard <br> Plastic <br> Recycling |
 | **Status** | Active |
